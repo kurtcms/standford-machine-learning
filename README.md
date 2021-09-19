@@ -1,11 +1,12 @@
+
 # Machine Learning by Stanford University
-Machine learning problem sets from Stanford University's Machine Learning course on Coursera.
+Below are the problem sets and courseworks, written in Matlab, from Stanford University's [Machine Learning](https://www.coursera.org/learn/machine-learning)  course on Coursera.
 
 ## Problem Set #1: Linear Regression and Gradient Descent
 
 ### Linear Regression with One Variable
 
-This involves implementing a linear regression with one variable, using profits and populations of cities, in which food trucks have been in operations, to predict profits for a new food truck given the population in its operating city, using the gradient descent algorithm. 
+This involves implementing a linear regression with one variable, using profits and populations of cities, in which food trucks have been in operations, to predict profits for a new food truck given the population in its operating city, using the gradient descent algorithm.
 
 Training data with linear regression fitted by gradient descent:
 
