@@ -2,6 +2,17 @@
 # Machine Learning by Stanford University
 Below are the problem sets and courseworks, written in Matlab, from Stanford University's [Machine Learning](https://www.coursera.org/learn/machine-learning)  course on Coursera.
 
+## Table of Content
+
+- [Problem Set #1: Linear Regression and Gradient Descent](#problem-set-1-linear-regression-and-gradient-descent)
+- [Problem Set #2: Logistic Regression](#problem-set-2-logistic-regression)
+- [Problem Set #3: Multi-class Classification and Neural Networks](#problem-set-3-multi-class-classification-and-neural-networks)
+- [Problem Set #4: Neural Network Learning](#problem-set-4-neural-network-learning)
+- [Problem Set #5: Regularised Linear Regression and Bias v.s. Variance](#problem-set-5-regularised-linear-regression-and-bias-vs-variance)
+- [Problem Set #6: Support Vector Machines](#problem-set-6-support-vector-machines)
+- [Problem Set #7: K-means Clustering and Principal Component Analysis](#problem-set-7-k-means-clustering-and-principal-component-analysis)
+- [Problem Set #8: Anomaly Detection and Recommender Systems](#problem-set-8-anomaly-detection-and-recommender-systems)
+
 ## Problem Set #1: Linear Regression and Gradient Descent
 
 ### Linear Regression with One Variable
@@ -10,11 +21,11 @@ This involves implementing a linear regression with one variable, using profits 
 
 Training data with linear regression fitted by gradient descent:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex1_profit-vs-population-size-linear-regression.png)
+![Training data with linear regression fitted by gradient descent](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex1_profit-vs-population-size-linear-regression.png)
 
 Surface and contour plots of the cost function J(&theta;):
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex1_cost-function-surface-plot.png)![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex1_cost-function-contour-plot.png)
+![Surface and contour plots of the cost function J(theta)](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex1_cost-function-surface-plot.png)![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex1_cost-function-contour-plot.png)
 
 ### Linear Regression with Multiple Variables
 
@@ -22,7 +33,7 @@ This involves implementing a linear regression with two variables, using the hou
 
 With a learning rate (&alpha;) of 0.01, the cost function J(&theta;) converges after a number of iteration using gradient descent:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex1_multi_gradient-decent-convergence.png)
+![With a learning rate (alpha) of 0.01, the cost function J(theta) converges after a number of iteration using gradient descent](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex1_multi_gradient-decent-convergence.png)
 
 ## Problem Set #2: Logistic Regression
 
@@ -32,7 +43,7 @@ This involves implementing a logistic regression with two variables, using histo
 
 Training data with decision boundary fitted by the fminunc function:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex2_exam-scores-vs-university-admission-decision-boundary.png)
+![Training data with decision boundary fitted by the fminunc function](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex2_exam-scores-vs-university-admission-decision-boundary.png)
 
 Training accuracy is 89%.
 
@@ -42,14 +53,14 @@ This involves implementing a regularised logistic regression with two variables,
 
 Training data with decision boundary fitted by the fminunc function:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex2_reg-microchip-test-results-vs-qa-decision-boundary.png)
+![Training data with decision boundary fitted by the fminunc function](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex2_reg-microchip-test-results-vs-qa-decision-boundary.png)
 
 Training accuracy is 83%
 
 Training data with decision boundary fitted by the fminunc function using a regularisation parameter (&lambda;) of 0 (no regularisation/overfitting) and of 100 (underfitting):
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex2_reg-microchip-test-results-vs-qa-decision-boundary-lambda-0.png)
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex2_reg-microchip-test-results-vs-qa-decision-boundary-lambda-100.png)
+![Training data with decision boundary fitted by the fminunc function using a regularisation parameter (lambda) of 0 (no regularisation/overfitting)](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex2_reg-microchip-test-results-vs-qa-decision-boundary-lambda-0.png)
+![Training data with decision boundary fitted by the fminunc function using a regularisation parameter (lambda) of 100 (underfitting)](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex2_reg-microchip-test-results-vs-qa-decision-boundary-lambda-100.png)
 
 ## Problem Set #3: Multi-class Classification and Neural Networks
 
@@ -57,7 +68,7 @@ This involves implementing one-vs-all logistic regression, and neural networks o
 
 Handwritten digits visualised:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex3_hand-written-digits.png)
+![Handwritten digits visualised](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex3_hand-written-digits.png)
 
 Training accuracy is 95% with one-vs-all logistic regression whereas training accuracy is 97.52% with one-vs-all neural networks.
 
@@ -67,12 +78,12 @@ This involves implementing the backpropagation algorithm for neural networks of 
 
 Handwritten digits and the representation captured by the hidden layer visualised:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex4_hand-written-digits.png)
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex4_hand-written-digits-representation-hidden-layer.png)
+![Handwritten digits visualised](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex4_hand-written-digits.png)
+![The representation captured by the hidden layer visualised](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex4_hand-written-digits-representation-hidden-layer.png)
 
 Training accuracy is 95.06%.
 
-## Problem Set #5: Regularised Linear Regression and Bias v.s. Variance
+## Problem Set #5: Regularised Linear Regression and Bias vs Variance
 
 This involves implementing regularised linear regression, using historical record of change of water level in a reservoir and the amount of water flowing out of a dam, to predict water outflow given the reservoir's water level change, using Octave/MATLAB's fmincg function.
 
@@ -86,13 +97,13 @@ The dataset will be randomly divided into 3 parts.
 
 Training data with regularised linear regression fitted by the fmincg function (high bias) and the training and cross-validation errors as a function of training set size:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_reservoir-water-level-change-vs-water-outflow-linear-regression.png)![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_training-cross-validation-error-vs-training-set-size-linear-regression.png)
+![Training data with regularised linear regression fitted by the fmincg function (high bias)](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_reservoir-water-level-change-vs-water-outflow-linear-regression.png)![The training and cross-validation errors as a function of training set size](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_training-cross-validation-error-vs-training-set-size-linear-regression.png)
 
 ### Regularised Polynomial Regression
 
 Training data with regularised polynomial regression fitted by the fmincg function using a regularisation parameter (&lambda;) of 1 and the training and cross-validation errors as a function of training set size
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_reservoir-water-level-change-vs-water-outflow-polynomial-regression-lambda-1.png)![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_training-cross-validation-error-vs-training-set-size-polynomial-regression-lambda-1.png)
+![Training data with regularised polynomial regression fitted by the fmincg function using a regularisation parameter (lambda) of 1](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_reservoir-water-level-change-vs-water-outflow-polynomial-regression-lambda-1.png)![The training and cross-validation errors as a function of training set size](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_training-cross-validation-error-vs-training-set-size-polynomial-regression-lambda-1.png)
 
 Training data with regularised polynomial regression fitted by the fmincg function using a regularisation parameter (&lambda;) of 0 (no regularisation/overfitting/high variance) and the training and cross-validation errors as a function of training set size
 
@@ -100,11 +111,11 @@ Training data with regularised polynomial regression fitted by the fmincg functi
 
 Training data with regularised polynomial regression fitted by the fmincg function using a regularisation parameter (&lambda;) of 100 (underfitting/high bias) and the training and cross-validation error as a function of training set size
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_reservoir-water-level-change-vs-water-outflow-polynomial-regression-lambda-100.png)![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_training-cross-validation-error-vs-training-set-size-polynomial-regression-lambda-100.png)
+![Training data with regularised polynomial regression fitted by the fmincg function using a regularisation parameter (lambda) of 100 (underfitting/high bias)](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_reservoir-water-level-change-vs-water-outflow-polynomial-regression-lambda-100.png)![The training and cross-validation error as a function of training set size](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_training-cross-validation-error-vs-training-set-size-polynomial-regression-lambda-100.png)
 
 Training and cross-validation error as a function of the regularisation parameter (&lambda;).
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_training-cross-validation-error-vs-lambda.png)
+![Training and cross-validation error as a function of the regularisation parameter (lambda)](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_training-cross-validation-error-vs-lambda.png)
 
 ## Problem Set #6: Support Vector Machines
 
@@ -114,15 +125,15 @@ This involves implementing Support Vector Machines (SVMs) with a C parameter and
 
 SVM linear decision boundary with the C parameter of 1 and of 100 on example dataset #1:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex6_example-dataset-1-linear-decison-boundary-c-1.png)![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex6_example-dataset-1-linear-decison-boundary-c-100.png)
+![SVM linear decision boundary with the C parameter of 1 on example dataset #1](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex6_example-dataset-1-linear-decison-boundary-c-1.png)![SVM linear decision boundary with the C parameter of 100 on example dataset #1](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex6_example-dataset-1-linear-decison-boundary-c-100.png)
 
 SVM non-linear decision boundary with a Gaussian kernel on example dataset #2:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex6_example-dataset-2-non-linear-decison-boundary-gaussian-kernel.png)
+![SVM non-linear decision boundary with a Gaussian kernel on example dataset #2](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex6_example-dataset-2-non-linear-decison-boundary-gaussian-kernel.png)
 
 SVM non-linear decision boundary with a C parameter, and a bandwidth parameter (&sigma;) for the Gaussian kernel, that minimise prediction error on example dataset #3:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex6_example-dataset-3-non-linear-decison-boundary-gaussian-kernel-c-min-error.png)
+![SVM non-linear decision boundary with a C parameter, and a bandwidth parameter (sigma) for the Gaussian kernel, that minimise prediction error on example dataset #3](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex6_example-dataset-3-non-linear-decison-boundary-gaussian-kernel-c-min-error.png)
 
 ### Support Vector Machines (SVMs) Spam Classifier
 
@@ -158,7 +169,7 @@ This involves implementing the K-means clustering algorithm and applying it to c
 
 Moving paths of centroids using K-means clustering with iteration steps of 10 and a number of cluster of 3 on an example dataset:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_example-dataset-k-means-iteration-1.png)![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_example-dataset-k-means-iteration-10.png)
+![Starting positions of centroids using K-means clustering with iteration steps of 10 and a number of cluster of 3 on an example dataset](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_example-dataset-k-means-iteration-1.png)![Moving paths of centroids using K-means clustering with iteration steps of 10 and a number of cluster of 3 on an example dataset](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_example-dataset-k-means-iteration-10.png)
 
 Bird image of 128×128 resolution in 24-bit colour requires 24 bits for each pixel, and results in a size of 128 × 128 × 24 = 393,216 bits.
 
@@ -166,11 +177,11 @@ If however, using K-means clustering to identify 16 principal colours, and repre
 
 The final number of bits used is therefore 16 × 24 + 128 × 128 × 4 = 65,920 bits, which corresponds to a compression factor of 6:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_bird-image-compression-k-means-16-colours.png)
+![Bird image of 128×128 resolution in 24-bit colour and of 16 principal colours](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_bird-image-compression-k-means-16-colours.png)
 
 Each pixel of the bird image, plotted with RGB values on a different axis each, grouped in 16 principal colour clusters:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_bird-image-compression-k-means-16-colours-pixel-plot-3d.png)![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_bird-image-compression-k-means-16-colours-pixel-plot-2d.png)
+![Each pixel of the bird image, plotted with RGB values on a different axis each, grouped in 16 principal colour clusters](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_bird-image-compression-k-means-16-colours-pixel-plot-3d.png)![Dimensionality reduced pixel of the bird image, plotted in 2d](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_bird-image-compression-k-means-16-colours-pixel-plot-2d.png)
 
 ### Principal Component Analysis
 
@@ -178,11 +189,11 @@ This involves using principal component analysis to find a low-dimensional repre
 
 Dimensionality reduction with principal component analysis on an example dataset:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_pca-example-dataset-eigenvectors.png)![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_pca-example-dataset-dimensionality-reduction-principal-component-analysis.png)
+![Dimensionality reduction with eigenvectors on an example dataset](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_pca-example-dataset-eigenvectors.png)![Dimensionality reduction with principal component analysis on an example dataset](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_pca-example-dataset-dimensionality-reduction-principal-component-analysis.png)
 
 Face image of 32x32 resolution, in grayscale, have 32 x 32 = 1,024 pixels or dimensions. Using principal component analysis to reduce the dimensions from 1,024 to 100, reduces the dataset size by a factor of 10, while maintaining the general structure and appearance of the faces, despite forgoing the fine details:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_pca-face-image-compression-dimensionality-reduction-principal-component-analysis.png)
+![Using principal component analysis to reduce the dimensions from 1,024 to 100, reduces the dataset size by a factor of 10, while maintaining the general structure and appearance of the faces, despite forgoing the fine details](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex7_pca-face-image-compression-dimensionality-reduction-principal-component-analysis.png)
 
 ## Problem Set #8: Anomaly Detection and Recommender Systems
 
@@ -192,7 +203,7 @@ This involves implementing an anomaly detection algorithm, with Gaussian distrib
 
 Anomalies with a probability of occurrence lower than the threshold (&epsilon;), which is set to maximise F-score on a cross-validation set, fitted against a Gaussian distribution:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex8_anomalies-detection-gaussian-distribution.png)
+![Anomalies with a probability of occurrence lower than the threshold (epsilon), which is set to maximise F-score on a cross-validation set, fitted against a Gaussian distribution](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex8_anomalies-detection-gaussian-distribution.png)
 
 ### Recommender Systems using Collaborative Filtering
 
@@ -200,7 +211,7 @@ This involves using collaborative filtering to build a movie recommender system 
 
 Movie rating dataset of 943 users and 1682 movies visualised:
 
-![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex8_movielens-100k-movies-vs-users.png)
+![Movie rating dataset of 943 users and 1682 movies visualised](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex8_movielens-100k-movies-vs-users.png)
 
 Provides a user with movie ratings of:
 |---|
