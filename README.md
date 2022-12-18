@@ -1,6 +1,6 @@
 
 # Machine Learning by Stanford University
-Below are the problem sets and courseworks, written in Matlab, from Stanford University's [Machine Learning](https://www.coursera.org/learn/machine-learning)  course on Coursera.
+Below are the problem sets and courseworks, written in Matlab, from Stanford University's [Machine Learning](https://www.coursera.org/learn/machine-learning) course on Coursera.
 
 ## Table of Content
 
@@ -55,7 +55,7 @@ Training data with decision boundary fitted by the fminunc function:
 
 ![Training data with decision boundary fitted by the fminunc function](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex2_reg-microchip-test-results-vs-qa-decision-boundary.png)
 
-Training accuracy is 83%
+Training accuracy is 83%.
 
 Training data with decision boundary fitted by the fminunc function using a regularisation parameter (&lambda;) of 0 (no regularisation/overfitting) and of 100 (underfitting):
 
@@ -87,11 +87,11 @@ Training accuracy is 95.06%.
 
 This involves implementing regularised linear regression, using historical record of change of water level in a reservoir and the amount of water flowing out of a dam, to predict water outflow given the reservoir's water level change, using Octave/MATLAB's fmincg function.
 
-The dataset will be randomly divided into 3 parts.
+The dataset will be randomly divided into 3 parts:
 
-* Training set: for regression learning.
-* Cross-validation set: for determining the regularisation parameter.
-* Test set: for evaluating the regression performance.
+* Training set: for regression learning
+* Cross-validation set: for determining the regularisation parameter
+* Test set: for evaluating the regression performance
 
 ### Regularised Linear Regression
 
@@ -101,19 +101,19 @@ Training data with regularised linear regression fitted by the fmincg function (
 
 ### Regularised Polynomial Regression
 
-Training data with regularised polynomial regression fitted by the fmincg function using a regularisation parameter (&lambda;) of 1 and the training and cross-validation errors as a function of training set size
+Training data with regularised polynomial regression fitted by the fmincg function using a regularisation parameter (&lambda;) of 1 and the training and cross-validation errors as a function of training set size:
 
 ![Training data with regularised polynomial regression fitted by the fmincg function using a regularisation parameter (lambda) of 1](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_reservoir-water-level-change-vs-water-outflow-polynomial-regression-lambda-1.png)![The training and cross-validation errors as a function of training set size](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_training-cross-validation-error-vs-training-set-size-polynomial-regression-lambda-1.png)
 
-Training data with regularised polynomial regression fitted by the fmincg function using a regularisation parameter (&lambda;) of 0 (no regularisation/overfitting/high variance) and the training and cross-validation errors as a function of training set size
+Training data with regularised polynomial regression fitted by the fmincg function using a regularisation parameter (&lambda;) of 0 (no regularisation/overfitting/high variance) and the training and cross-validation errors as a function of training set size:
 
 ![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_reservoir-water-level-change-vs-water-outflow-polynomial-regression-lambda-0.png)![alt text](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_training-cross-validation-error-vs-training-set-size-polynomial-regression-lambda-0.png)
 
-Training data with regularised polynomial regression fitted by the fmincg function using a regularisation parameter (&lambda;) of 100 (underfitting/high bias) and the training and cross-validation error as a function of training set size
+Training data with regularised polynomial regression fitted by the fmincg function using a regularisation parameter (&lambda;) of 100 (underfitting/high bias) and the training and cross-validation error as a function of training set size:
 
 ![Training data with regularised polynomial regression fitted by the fmincg function using a regularisation parameter (lambda) of 100 (underfitting/high bias)](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_reservoir-water-level-change-vs-water-outflow-polynomial-regression-lambda-100.png)![The training and cross-validation error as a function of training set size](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_training-cross-validation-error-vs-training-set-size-polynomial-regression-lambda-100.png)
 
-Training and cross-validation error as a function of the regularisation parameter (&lambda;).
+Training and cross-validation error as a function of the regularisation parameter (&lambda;):
 
 ![Training and cross-validation error as a function of the regularisation parameter (lambda)](https://github.com/kurtcms/standford-machine-learning/blob/master/images/ex5_training-cross-validation-error-vs-lambda.png)
 
@@ -165,7 +165,7 @@ Top predictor words for spam are:
 
 ### K-means Clustering
 
-This involves implementing the K-means clustering algorithm and applying it to compress an image
+This involves implementing the K-means clustering algorithm and applying it to compress an image. 
 
 Moving paths of centroids using K-means clustering with iteration steps of 10 and a number of cluster of 3 on an example dataset:
 
